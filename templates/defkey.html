@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Defkey</title>
+    <link rel="stylesheet" href="../styles.css">
+    <!-- Bootstrap 5-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-image: url(https://i.pinimg.com/originals/16/02/b2/1602b26c05ee78120695d592a68b8912.gif);">
+        <div class="container-fluid">
+            <img src="../images/photo.jpg" height="50" width="50">
+            <a class="navbar-brand" href="../index.html" style="color: mediumspringgreen;"><img src="https://fontmeme.com/permalink/210605/56858d18ee636e6cf22df50b1e17f078.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html"; style="color: lightskyblue;">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="tools.html"; style="color: lightskyblue;">Herramientas</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container p-4">
+    	<h1 align="center" style="color: cyan;">Defkey: Password por defecto a partir de la MAC</h1>
+    	<br>
+    	<br>
+    	<img src="../images/defkey.jpg" height="300" width="400">  <img src="../images/defkey1.jpg" height="300" width="400">
+    	<br>
+    	<br>
+    	<br>
+    	<article style="color: white; text-align: justify;">Defkey es una herramienta escrita en python, la cual utiliza la libreria wpspin de pip, para generar los pines de fuerza bruta a una red de WIFI. La funcion de esta herramienta se basa en que el usuario escoga primero la marca o tipo de router (Movistar, ZTE, DirecTV, etc ) y luego introduzca la Direccion MAC de una red ( algo como esto: C7:CE:A1:AF:AA:D8 ). Finalizado estos simples pasos automaticamente se generara una contraseña por defecto para esa marca especifica y +30 pines que podemos probar en un ataque de fuerza bruta. </article>
+    	<br>
+    	<p style="color: white;">El resultado de la password por defecto ( dependiendo la marca ) sera algo como asi: </p>
+    	<img src="../images/defkey2.jpg">
+        <br>
+        <br>
+        <h3 style="color: limegreen;">Instalacion en termux:</h3>
+        <p style="color: white;">git clone https://github.com/Blacksterhack/Defkey</p>
+    	<br>
+    	<br>
+    	<br>
+<footer>
+	<p style="color: lightgreen;"><b> <<- by Blackster ->> <a href="https://github.com/Blacksterhack" target="_blank" style="color: lightgreen;">Sigueme en Github</b></a><a href="http://github.com/Blacksterhack"> <img src="../images/github.png" target="_blank" height="25" width="40"></a></p>
+</footer>
+</body>
+</html>
